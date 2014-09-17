@@ -1,0 +1,68 @@
+2014-09-16 12:18:32:6 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:19:04:2 ERROR System.InvalidOperationException: SessionID只能设置一次！
+   在 GCL.Project.VESH.E.Entity.Power.Security.User.set_SessionID(String value)
+   在 VESHTest.Module.login.Action.UserLogin(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session) 位置 F:\baibing\work\VESHTest\VESHTest\Module\login\Action.cs:行号 48
+2014-09-16 12:19:40:7 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:21:07:9 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:22:56:5 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:23:08:3 ERROR System.InvalidOperationException: SessionID只能设置一次！
+   在 GCL.Project.VESH.E.Entity.Power.Security.User.set_SessionID(String value)
+   在 VESHTest.Module.login.Action.UserLogin(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session) 位置 F:\baibing\work\VESHTest\VESHTest\Module\login\Action.cs:行号 48
+2014-09-16 12:24:03:3 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:25:14:4 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:25:37:2 ERROR System.InvalidOperationException: SessionID只能设置一次！
+   在 GCL.Project.VESH.E.Entity.Power.Security.User.set_SessionID(String value)
+   在 VESHTest.Module.login.Action.UserLogin(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session) 位置 F:\baibing\work\VESHTest\VESHTest\Module\login\Action.cs:行号 48
+2014-09-16 12:25:48:1 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:26:32:0 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:26:55:0 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:27:48:0 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:28:36:6 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:29:42:5 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:30:21:3 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-16 12:36:12:0 ERROR System.MissingMethodException: VESHTest.Module.admin.Action.permission方法没有找到
+   在 GCL.Bean.BeanTool.Invoke(Object aim, String name, Type[] paraTypes, Object[] paras)
+   在 GCL.Project.VESH.V.Control.HttpHandler.ProcessRequest(HttpContext context)
+2014-09-16 12:36:29:2 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 

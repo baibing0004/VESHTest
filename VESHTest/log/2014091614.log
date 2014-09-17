@@ -1,0 +1,40 @@
+2014-09-16 14:35:45:7 ERROR MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 GCL.Db.Ni.ADataResource.CreateConnection()
+   在 GCL.Db.Ni.NiInstanceDataResource.GetConnection()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataResource resource, LinkedList`1 lstCom, NiDataResult result)
+   在 GCL.Db.Ni.NiTemplate.Excute()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText, CommandType type)
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText)
+   在 GCL.Db.Ni.NiTemplate.ExcuteQuery(String commandText)
+   在 GCL.Db.Ni.NiTemplateManager.ExcuteQuery(String templateName, String commandText)
+   在 VESHTest.Module.admin.Action.GetPermission(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session) 位置 F:\baibing\work\VESHTest\VESHTest\Module\admin\Action.cs:行号 60
+2014-09-16 14:39:24:2 ERROR MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 GCL.Db.Ni.ADataResource.CreateConnection()
+   在 GCL.Db.Ni.NiInstanceDataResource.GetConnection()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataResource resource, LinkedList`1 lstCom, NiDataResult result)
+   在 GCL.Db.Ni.NiTemplate.Excute()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText, CommandType type)
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText)
+   在 GCL.Db.Ni.NiTemplate.ExcuteQuery(String commandText)
+   在 GCL.Db.Ni.NiTemplateManager.ExcuteQuery(String templateName, String commandText)
+   在 VESHTest.Module.admin.Action.GetPermission(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session) 位置 F:\baibing\work\VESHTest\VESHTest\Module\admin\Action.cs:行号 60
+2014-09-16 14:40:37:9 ERROR MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 GCL.Db.Ni.ADataResource.CreateConnection()
+   在 GCL.Db.Ni.NiInstanceDataResource.GetConnection()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataResource resource, LinkedList`1 lstCom, NiDataResult result)
+   在 GCL.Db.Ni.NiTemplate.Excute()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText, CommandType type)
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText)
+   在 GCL.Db.Ni.NiTemplate.ExcuteQuery(String commandText)
+   在 GCL.Db.Ni.NiTemplateManager.ExcuteQuery(String templateName, String commandText)
+   在 VESHTest.Module.admin.Action.GetPermission(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session) 位置 F:\baibing\work\VESHTest\VESHTest\Module\admin\Action.cs:行号 60
+2014-09-16 14:41:36:2 ERROR MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'home' is not allowed to connect to this MySQL server
+   在 GCL.Db.Ni.ADataResource.CreateConnection()
+   在 GCL.Db.Ni.NiInstanceDataResource.GetConnection()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataResource resource, LinkedList`1 lstCom, NiDataResult result)
+   在 GCL.Db.Ni.NiTemplate.Excute()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText, CommandType type)
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText)
+   在 GCL.Db.Ni.NiTemplate.ExcuteQuery(String commandText)
+   在 GCL.Db.Ni.NiTemplateManager.ExcuteQuery(String templateName, String commandText)
+   在 VESHTest.Module.admin.Action.GetPermission(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session) 位置 F:\baibing\work\VESHTest\VESHTest\Module\admin\Action.cs:行号 60

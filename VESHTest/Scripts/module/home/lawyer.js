@@ -1,0 +1,2 @@
+﻿//定时发布 获取真实的数据 不直接访问数据库
+var lawyer = [{ LName: '吴律师', Name: '尚公律师事务所', Icon: '../../Images/home/demo.jpg' }, { LName: '李律师', Name: '尚公律师事务所', Icon: '../../Images/home/demo.jpg' }, { LName: '某律师', Name: '尚公律师事务所', Icon: '../../Images/home/demo.jpg'}];

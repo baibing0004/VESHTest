@@ -1,0 +1,186 @@
+﻿@charset "utf-8";
+/*header*/
+#header {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    height: 80px;
+    width: 100%;
+}
+.global-top-a .global-top {
+    background: url("../../images/login/headbg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+}
+.global-top-link {
+    cursor: pointer;
+}
+/*main*/
+#main {
+    background-color:#eee;
+}
+.content {
+    margin: 0 auto;
+    width: 1150px;
+    padding-bottom: 15px;
+}
+.fn-clear:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.i-assets {
+    padding-top: 15px;
+    position: relative;
+}
+.fn-clear {
+}
+#main .col-left {
+    float: left;
+    min-height: 300px;
+    position: relative;
+    width: 220px;
+}
+#main .col-right {
+    float: left;
+    margin-left: 50px;
+    min-height: 600px;
+    position: relative;
+    width: 880px;
+} 
+/*菜单*/ 
+.nav {
+    background-color: #fff;
+    border-radius: 0 0 2px 2px;
+    position: absolute;
+    width: 220px;
+}
+.nav .ued-logo {
+    float: left;
+    font-size: 0;
+    width: 100%;
+}
+.nav .ued-logo img {
+    max-height: 100px;
+    width: 100%;
+}
+.nav .nav-label {
+    background-color: #f8f8f8;
+    display: none;
+    height: 41px;
+    left: -7px;
+    position: absolute;
+    top: 0;
+    width: 227px;
+    z-index: -1;
+}
+.nav .nav-label span {
+    background-color: #08c;
+    float: left;
+    height: 100%;
+    width: 7px;
+}
+.nav .nav-menu {
+    float: left;
+    margin-top: 27px;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.nav .nav-menu .amenu {
+    float: left;
+    margin-left: 32px;
+    overflow-x: hidden;
+    width: 156px;
+}
+.nav .nav-menu li {
+    border-top: 1px solid #f8f8f8;
+    float: left;
+}
+.nav .nav-menu .amenu-item-home {
+    border-top: 0 none;
+}
+.nav .nav-menu a {
+    color: #606566;
+    float: left;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 9px 0;
+    text-indent: 7px;
+    width: 156px;
+}
+.nav .nav-menu a:hover {
+    color: #0080d9 !important;
+    text-decoration: none;
+    cursor:pointer;
+}
+.nav .nav-menu .current-menu-item a {
+    color: #0080d9;
+}
+.nav .nav-menu .sub-menu a {
+    font-size: 13px;
+    text-indent: 39px;
+}
+.nav .nav-menu .current-menu-item .sub-menu a {
+    color: #606566;
+}
+.nav .nav-search {
+    float: left;
+    margin: 20px 0 36px 32px;
+}
+.nav-abs {
+    position: absolute;
+}
+/*iframe*/
+.lv_iframe {
+    background-color: #fff;
+    color: #666;
+    border: 1px solid #ccc;
+}
+/*footer*/
+#footer{
+    background-color: #eee;
+    color: #666;
+    margin-top:0;
+    padding-top: 0;
+}
+.ui-footer {
+    border-top: 1px solid #cccccc;
+    color: #808080;
+    margin-top: 30px;
+}
+.ui-footer {
+    background-color: #fff;
+    border-top: 0 none !important;
+    margin-top: 50px;
+}
+.ui-footer-ctn {
+    border-top: 1px solid #ffffff;
+    padding-top: 15px;
+    text-align: center;
+}
+.ui-footer-link a {
+    padding: 0 3px 0 2px;
+}
+.ui-footer .ui-separator {
+    font-weight: normal;
+}
+.ui-separator {
+    color: #b2b2b2;
+}
+.i-app {
+    background-color: #333;
+    border-bottom: 5px solid #08c;
+    bottom: 0;
+    color: #ccc;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.ui-footer-copyright, .ui-footer-phone {
+    padding-top: 10px;
+}
+.copyright, .copyright a, .copyright a:hover {
+    color: #808080;
+}

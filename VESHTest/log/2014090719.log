@@ -1,0 +1,31 @@
+2014-09-07 19:35:10:8 ERROR GCL.Db.Ni.NiCommandException: 调用命令:SELECT if(EXISTS (SELECT * from my_User where Mail = ?Mail), 'true', 'false');
+调用类型:Text
+是
+参数列表:
+=================================================================
+|名称	值	类型	长度	参数方向	|
+=================================================================
+=================================================================
+ ---> MySql.Data.MySqlClient.MySqlException: Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException: Parameter '?Mail' must be defined.
+   在 MySql.Data.MySqlClient.Statement.SerializeParameter(MySqlParameterCollection parameters, MySqlPacket packet, String parmName)
+   在 MySql.Data.MySqlClient.Statement.InternalBindParameters(String sql, MySqlParameterCollection parameters, MySqlPacket packet)
+   在 MySql.Data.MySqlClient.Statement.BindParameters()
+   在 MySql.Data.MySqlClient.PreparableStatement.Execute()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 GCL.Db.Ni.NiFillDataCommand.ExcuteCommand(IDataResource res, DbCommand command, NiDataResult result)
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataResource resource, LinkedList`1 lstCom, NiDataResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataResource resource, LinkedList`1 lstCom, NiDataResult result)
+   在 GCL.Db.Ni.NiTemplate.Excute()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText, CommandType type)
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText)
+   在 GCL.Db.Ni.NiTemplate.ExcuteQuery(String commandText)
+   在 GCL.Db.Ni.NiTemplateManager.ExcuteQuery(String templateName, String commandText)
+   在 VESHTest.Module.reg.Action.getMail(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session) 位置 F:\baibing\work\VESHTest\VESHTest\Module\reg\Action.cs:行号 17

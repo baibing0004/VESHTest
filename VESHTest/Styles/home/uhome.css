@@ -1,0 +1,201 @@
+﻿@charset "utf-8";
+@font-face{
+    font-family:"rei";
+    src:url("../../Styles/font/rei.eot?20130123");
+    src:url("../../Styles/font/rei.eot?20130123#iefix") format("embedded-opentype"),
+        url("../../Styles/font/rei.woff?20130123") format("woff"),
+        url("../../Styles/font/rei.ttf?20130123") format("truetype"),
+        url("../../Styles/font/rei.svg?20130123#rei") format("svg")
+}
+.iconfont {
+    font-family: "rei";
+    font-style: normal;
+    font-weight: normal;
+}
+.i-banner {
+    background: url("../../images/login/src.jpg") repeat-x scroll 550px center #2c436f;
+}
+.global-top-a .global-top {
+    background: url(../../images/login/headbg.png) repeat-x;
+}
+.global-common-a .global-nav-item .iconfont {
+    color: #0080d9;
+}
+.global-common-a .global-nav-item a:hover, .global-common-a .global-nav-item-current a {
+    color: #0080d9;
+}
+.global-common-a .global-subnav-item a:hover{color:#0080d9}
+.i-content {
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 1150px;
+}
+
+/*footer*/
+.ui-footer {
+    border-top: 1px solid #cccccc;
+    color: #808080;
+    height: 100px;
+    margin-top: 30px;
+}
+.ui-footer-ctn {
+    border-top: 1px solid #ffffff;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.ui-footer-link a {
+    padding: 0 3px 0 2px;
+}
+.ui-footer .ui-separator {
+    font-weight: normal;
+}
+.ui-footer-copyright, .ui-footer-phone {
+    padding-top: 10px;
+}
+
+.copyright, .copyright a, .copyright a:hover {
+    color: #808080;
+}
+.copyright, .copyright a, .copyright a:hover {
+    color: #808080;
+}
+.ui-footer-copyright a, .ui-footer-copyright a:hover {
+    color: #808080;
+}
+.server {
+    color: #fff;
+}
+/*案件*/
+.i-trend .header .ebill-link {
+    color: #08c;
+}
+#G-nocase-tabs {
+    background: none repeat scroll 0 0 #eee;
+    font-family: 'Poiret One',cursive;
+    font-size: 40px;
+    text-align: center;
+}
+/*业务类型*/
+.clearfix {
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.others-extend {
+    background: url("../../images/home/bg_i_b.png") repeat-x scroll 0 0 #ddd;
+    padding: 10px 0;
+}
+.others-extend h2 {
+    padding: 10px 0;
+}
+.others-extend{
+    min-width: 1150px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+}
+.container:before, .container:after, .row:before, .row:after {
+    content: "";
+    display: table;
+}
+.container:after, .row:after {
+    clear: both;
+}
+.title-style1 {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:"Microsoft Yahei";
+}
+.ad-extendlist{text-align:center}
+.ad-extendlist .imgbox {
+    background: url("../../images/home/imgbt_bg.png") no-repeat scroll 0 bottom #fff;
+    height: 109px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 147px;
+}
+.ad-extendlist li {
+    overflow: hidden;
+    width: 147px;
+}
+.ad-extendlist li:hover {
+    cursor:pointer;
+}
+.ad-extendlist img {
+    height: 109px;
+    width: 235px;
+}
+.ad-extendlist .first {
+    float: left;
+}
+.ad-extendlist .mid {
+    float: left;
+    margin-left: 20px;
+}
+.ad-extendlist .last {
+    float: right;
+}
+.ad-extendlist .imgbt {
+    background: url("img/imgbt_bg.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 10px;
+}
+.ad-extendlist .name {
+    color: #08c;
+    font: 16px/1.2 "黑体",微软雅黑;
+    height: 20px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+.ad-extendlist .brief {
+    color: #666;
+    font-size: 12px;
+    padding: 5px 0 20px;
+}
+/*首次登录*/
+.layer-credit {
+    background-image: url("../../images/help/layer-credit.png");
+    height: 105px;
+    left: 655px;
+    position: absolute;
+    top: 40px;
+    width: 215px;
+    z-index: 2;
+    display: none;
+}
+.layer-credit .close {
+    background-image: none;
+    border: 0 none;
+    height: 21px;
+    line-height: 100px;
+    overflow: hidden;
+    right: 20px;
+    top: 4px;
+    width: 21px;
+}
+.layer-credit .close {
+    position: absolute;
+}
+.layer-credit .cont {
+    color: #f60;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 24px 0 0 85px;
+    cursor: default;
+}
+.layer-credit .go:link, .layer-credit .go:visited {
+    color: #005ea7;
+}
+.layer-credit .go {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+}

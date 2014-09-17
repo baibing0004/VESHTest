@@ -1,0 +1,43 @@
+﻿@charset "utf-8";
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+html {
+    overflow: hidden;
+}
+body, input, textarea {
+    font-family: verdana;
+}
+body {
+    font: 12px/1.5 tahoma,arial,"Hiragino Sans GB","Microsoft Yahei",宋体;
+    margin: 0;
+    min-width: 1000px;
+    padding: 0;
+}
+a, input, select {
+    font-size: 12px;
+}
+input, button, select, textarea {
+    outline: medium none;
+}
+textarea {
+    resize: none;
+}
+form, p, ol, ul, li, dl, dt, dd, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none outside none;
+}
+img, table {
+    border: 0 none;
+}
+a {
+    color: #0000cc;
+    outline: medium none;
+    text-decoration: none;
+}

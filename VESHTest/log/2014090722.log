@@ -1,0 +1,31 @@
+2014-09-07 22:04:18:3 ERROR System.InvalidOperationException: GetAction 未能确认合理的类VESHTest.Module.reg来执行处理方法!
+   在 GCL.Project.VESH.V.Control.HttpHandler.GetAction(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session, String classType)
+   在 GCL.Project.VESH.V.Control.HttpHandler.ProcessRequest(HttpContext context)
+2014-09-07 22:04:24:3 ERROR System.InvalidOperationException: GetAction 未能确认合理的类VESHTest.Module.reg来执行处理方法!
+   在 GCL.Project.VESH.V.Control.HttpHandler.GetAction(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session, String classType)
+   在 GCL.Project.VESH.V.Control.HttpHandler.ProcessRequest(HttpContext context)
+2014-09-07 22:04:25:0 ERROR System.InvalidOperationException: GetAction 未能确认合理的类VESHTest.Module.reg来执行处理方法!
+   在 GCL.Project.VESH.V.Control.HttpHandler.GetAction(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session, String classType)
+   在 GCL.Project.VESH.V.Control.HttpHandler.ProcessRequest(HttpContext context)
+2014-09-07 22:18:34:6 ERROR MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   在 System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   在 System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 GCL.Db.Ni.NiFillDataCommand.ExcuteCommand(IDataResource res, DbCommand command, NiDataResult result)
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataResource resource, LinkedList`1 lstCom, NiDataResult result)
+2014-09-07 22:48:55:2 ERROR System.InvalidOperationException: GetAction 未能确认合理的类VESHTest.Module.reg来执行处理方法!
+   在 GCL.Project.VESH.V.Control.HttpHandler.GetAction(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session, String classType)
+   在 GCL.Project.VESH.V.Control.HttpHandler.ProcessRequest(HttpContext context)
+2014-09-07 22:49:05:8 ERROR System.InvalidOperationException: GetAction 未能确认合理的类VESHTest.Module.reg来执行处理方法!
+   在 GCL.Project.VESH.V.Control.HttpHandler.GetAction(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session, String classType)
+   在 GCL.Project.VESH.V.Control.HttpHandler.ProcessRequest(HttpContext context)
+2014-09-07 22:49:39:4 ERROR System.InvalidOperationException: GetAction 未能确认合理的类VESHTest.Module.reg来执行处理方法!
+   在 GCL.Project.VESH.V.Control.HttpHandler.GetAction(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session, String classType)
+   在 GCL.Project.VESH.V.Control.HttpHandler.ProcessRequest(HttpContext context)

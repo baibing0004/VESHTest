@@ -1,0 +1,90 @@
+﻿@charset "utf-8";
+@font-face {
+    font-family: "rei";
+    src: url("../../Styles/font/rei.eot?20140606#iefix") format("embedded-opentype"), 
+         url("../../Styles/font/rei.woff?20140606") format("woff"), 
+         url("../../Styles/font/rei.ttf?20140606") format("truetype"), 
+         url("../../Styles/font/rei.svg?20140606#rei") format("svg");
+}
+.iconfont {
+    cursor: default;
+    font-family: "rei";
+    font-style: normal;
+    font-weight: normal;
+}
+.the-alipay-global {
+    font: 12px/1.5 Verdana,Arial,宋体,sans-serif;
+}
+.global-toplink {
+    float: right;
+}
+.the-alipay-global * {
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.global-toplink .global-toplink-link {
+    color: #666;
+    display: inline-block;
+    padding: 0 6px;
+}
+.the-alipay-global a {
+    color: #08c;
+    text-decoration: none;
+}
+.tab-choose {
+    box-shadow: 0 0 3px #c7c5c5;
+    height: 67px;
+    width: 778px;
+}
+.tab-choose-item-personal {
+    position: relative;
+}
+.tab-choose-item {
+    float: left;
+}
+.tab-choose-item-personal a {
+    background-position: 0 0;
+    width: 388px;
+}
+.tab-choose-item a {
+    display: block;
+    height: 68px;
+    text-indent: -9999em;
+}
+.tab-choose-item-personal-b a {
+    background-position: 0 0;
+    width: 388px;
+}
+.tab-choose-item a {
+    display: block;
+    height: 68px;
+    text-indent: -9999em;
+}
+.btn-business, .tab-choose-item a, .tab-choose-item-business-b .arrow, .link-trigger a, .list-rule-item {
+    background-image: url("../../images/reg/lawyer.png");
+    background-repeat: no-repeat;
+}
+.tab-choose-item-business-b {
+    position: relative;
+}
+.tab-choose-item-business-b a {
+    background-position: -387px 0;
+    width: 390px;
+}
+.tab-choose-item a {
+    display: block;
+    height: 68px;
+    text-indent: -9999em;
+}
+.tab-choose-item-business-b .arrow {
+    background-position: 0 -78px;
+    display: block;
+    height: 11px;
+    left: 47%;
+    position: absolute;
+    top: 66px;
+    width: 25px;
+}

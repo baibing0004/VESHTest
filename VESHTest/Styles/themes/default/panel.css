@@ -1,0 +1,116 @@
+.panel {
+  overflow: hidden;
+  font-size: 12px;
+  text-align: left;
+}
+.panel-header,
+.panel-body {
+  
+}
+.panel-header {
+}
+.panel-title {
+  
+}
+.panel-header-noborder {
+ 
+}
+.panel-body {
+  overflow: auto;
+
+}
+.panel-body-noheader {
+
+}
+.panel-body-noborder {
+
+}
+.panel-with-icon {
+  padding-left: 18px;
+}
+.panel-icon,
+.panel-tool {
+
+}
+.panel-icon {
+  left: 5px;
+  width: 16px;
+}
+.panel-tool {
+
+}
+.panel-tool a {
+ font-size: 14px;
+}
+.panel-tool a:hover {
+  
+}
+.panel-loading {
+  padding: 11px 0px 10px 30px;
+}
+.panel-noscroll {
+  overflow: hidden;
+}
+.panel-fit,
+.panel-fit body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+.panel-loading {
+ 
+}
+.panel-tool-close {
+   position: absolute;
+   right: 0;
+   top: 0;
+   -webkit-transition: all 0.5s ease 0s;
+   -moz-transition: all 0.5s ease 0s;
+   -ms-transition: all 0.5s ease 0s;
+   -o-transition: all 0.5s ease 0s;
+   transition: all 0.5s ease 0s;
+}
+.panel-tool-close:hover{
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    transform:rotate(180deg);
+    cursor:pointer;
+}
+.p_Folderembed{
+    right: 10px;
+    top: 0;
+}
+.panel-tool-min {
+ 
+}
+.panel-tool-max {
+ 
+}
+.panel-tool-restore {
+  
+}
+.panel-tool-collapse {
+  
+}
+.panel-tool-expand {
+  
+}
+.panel-header,
+.panel-body {
+ 
+}
+.panel-header {
+
+}
+.panel-body {
+ 
+}
+.panel-title {
+  color: #383838;
+  height: 20px;
+  line-height: 20px;
+}

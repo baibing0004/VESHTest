@@ -1,0 +1,465 @@
+﻿@charset "utf-8";
+.i-banner {
+    padding-top:32px;
+}
+.contentbox {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 1px #e1e1e1;
+    height: auto !important;
+    margin: 20px 0;
+    min-height: 500px;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix {
+}
+.content-top {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 25px 10px 10px 30px;
+    position: relative;
+}
+.content-top .arrowSign {
+    background: url("../../images/home/icon_arrow_page.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px 0 0;
+    display: block;
+    height: 54px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 54px;
+}
+.content-top h2 {
+    color: #000;
+    float: left;
+    font: 20px "微软雅黑";
+}
+.content-top .location {
+    float: right;
+    margin-top: 15px;
+}
+.location em {
+    font-family: "微软雅黑";
+    margin: 0 5px;
+}
+.content-main {
+    padding: 10px 15px;
+}
+.tabs-menu {
+    padding-left: 25px;
+    position: relative;
+    z-index: 5;
+}
+.tabs-menu li {
+    float: left;
+}
+.tabs-menu li a.selected, .tabs-menu li a.selected:hover {
+    background-position: 0 -177px;
+    position: relative;
+    z-index: 10;
+}
+.tabs-menu li a {
+    background-position: 0 2px;
+    height: 42px;
+    padding: 0 0 0 50px;
+}
+.tabs-menu li a, .tabs-menu li a span {
+    background-image: url("../../images/home/bg_tabs_menu.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.tabs-menu li a.selected span, .tabs-menu li a.selected:hover span {
+    background-position: right -222px;
+    color: #888;
+}
+.tabs-menu li a span {
+    background-position: right -42px;
+    color: #757678;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    padding: 10px 50px 10px 0;
+}
+.tabs-menu li a, .tabs-menu li a span {
+    background-image: url("../../images/home/bg_tabs_menu.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+/*案件模块*/
+.tabs-content, .moreSearchContent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #dadada #d0d0d0 #d0d0d0;
+    border-image: none;
+    border-radius: 5px;
+    border-right: 1px solid #d0d0d0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 2px 1px #e6e6e6;
+    margin-top: -1px;
+}
+.minheight {
+    height: auto !important;
+    min-height: 660px;
+}
+.tabs-box {
+    padding: 20px 15px 15px;
+}
+.h-title-in {
+    color: #333;
+    font: 16px "黑体",微软雅黑;
+    padding-bottom: 10px;
+}
+.widget-graybox {
+    background-color: #f7f7f7;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 1px #e6e6e6;
+    padding: 10px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+/*我的案件表格*/
+#order02, #order02 .mc, #order02 .tb-void, #order02 .mt {
+    overflow: visible;
+}
+.mod-comm {
+    padding: 10px 20px 20px;
+}
+.mod-main {
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.mod-main .mt:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#order02 .mt {
+    overflow: visible;
+}
+#order02, #order02 .mc, #order02 .tb-void, #order02 .mt {
+    overflow: visible;
+}
+.mod-comm .mt {
+    padding: 10px 0;
+}
+.mod-main .mt {
+    display: block;
+    padding: 10px;
+}
+.mt, .smt {
+    cursor: default;
+}
+.m, .mt, .mc, .mb, .sm, .smt, .smc, .smb {
+    overflow: hidden;
+}
+.taborder li {
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+.taborder .tyies-t {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #fff #fff -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 2px 2px 0;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 20px;
+    padding-right: 35px;
+    position: relative;
+    z-index: 3;
+}
+.ftx01, .ftx-01 {
+    color: #e4393c;
+}
+.taborder li b {
+    background: url("../../Images/home/anjian/order-icon.png") repeat scroll 0 -54px rgba(0, 0, 0, 0);
+    height: 5px;
+    margin-top: -3px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 9px;
+}
+#order02 .mt .extra-r {
+    width: 455px;
+}
+.mod-main .mt .extra-r {
+    float: right;
+}
+.search-01 {
+    float: right;
+}
+.search-01 .s-itxt {
+    border: 1px solid #ccc;
+    float: none;
+    line-height: 18px;
+    padding: 3px 5px 4px;
+    width: 195px;
+}
+.search-01 .btn-13 {
+    color: #333;
+}
+.btn-13:link, .btn-13:visited, .btn-14:link, .btn-14:visited, .btn-15:link, .btn-15:visited, .btn-16:link, .btn-16:visited {
+    color: #ccc;
+    text-decoration: none;
+}
+.btn-13, .btn-14, .btn-15, .btn-16 {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #ccc;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 14px 3px;
+}
+.mod-comm .mc {
+    line-height: 20px;
+}
+.tb-void{line-height:18px;text-align:center;border:1px solid #f2f2f2;border-top:0;color:#333;width:100%}
+#order02 .tb-void th {
+    background: none repeat scroll 0 0 #e7e7e7;
+}
+.tb-void th {
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #e5e5e5;
+    color: #08c;
+    font-weight: 400;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    text-align: center;
+}
+.tr-th td {
+    text-align: left;
+}
+.tr-th td, .tr-split td {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.tb-void td {
+    padding: 10px 5px;
+}
+.tr-th span {
+    display: inline-block;
+    float: left;
+    height: 24px;
+    line-height: 23px;
+    margin-right: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.tcol1 {
+    color: #666;
+    width: 225px;
+}
+.tcol1 {
+    color: #666;
+    width: 225px;
+}
+.tb-void a {
+    color: #005ea7;
+}
+.icon-tel {
+    background: url("../../Images/home/anjian/order-icon.png") no-repeat scroll 0 -36px rgba(0, 0, 0, 0);
+    display: inline-block;
+    font-size: 0;
+    height: 16px;
+    line-height: 0;
+    margin: -1px 3px 0 0;
+    vertical-align: middle;
+    width: 16px;
+}
+.img-list .img-box {
+    float: left;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+.tb-void .img-list {
+    text-align: left;
+}
+.img-list {
+    overflow: hidden;
+    width: 100%;
+}
+
+.u-name {
+    overflow: hidden;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.ftx04, .ftx-04 {
+    color: #ff8a15;
+}
+.btn-im, .btn-imoff {
+    background: url("../../Images/home/anjian/order-icon.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    float: left;
+    height: 16px;
+    line-height: 100px;
+    margin: 4px 0 0;
+    overflow: hidden;
+    width: 16px;
+}
+.tr-th span.tcol4 {
+    color: #666;
+    float: right;
+    width: 170px;
+}
+.btn-5:link, .btn-5:visited, .btn-6:link, .btn-6:visited, .btn-7:link, .btn-7:visited, .btn-8:link, .btn-8:visited {
+    color: #323333;
+    text-decoration: none;
+}
+.tb-void a {
+    color: #005ea7;
+}
+.btn-5, .btn-6, .btn-7, .btn-8 {
+    background-color: #f5fbef;
+    background-image: linear-gradient(to top, #f5fbef 0px, #eaf6e2 100%);
+    border: 1px solid #bfd6af;
+    border-radius: 2px;
+    color: #323333;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 14px 3px;
+}
+.tabs-content .global-subnav-input {
+    line-height: 1;
+    float: right;
+}
+.tabs-content .global-subnav-input input {
+    border: 1px solid #e4e7e8;
+    border-radius: 20px;
+    font-size: 12px;
+    height: 14px;
+    line-height: 1;
+    margin: 0;
+    outline: 0 none;
+    padding: 4px 10px;
+    width: 148px;
+}
+.tabs-content .global-subnav-input-scan {
+    color: #cfcccd;
+    float: right;
+    font-size: 14px;
+    line-height: 14px;
+    position: relative;
+    right: 25px;
+    top: 5px;
+}
+.tb-void .total:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.tb-void .total:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.tb-void .total ul {
+    float: right;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 0 20px 10px 0;
+}
+.tb-void .total li {
+    line-height: 20px;
+    overflow: hidden;
+}
+.tb-void .total li span {
+    float: left;
+    text-align: right;
+    width: 150px;
+}
+.clr {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.tb-void .total .extra {
+    border-top: 1px solid #ccc;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px 0 0;
+}
+.ftx04, .flk04 a:link, .flk04 a:visited, a.flk04:link, a.flk04:visited {
+    color: #f00;
+}
+.tb-void .total .extra b {
+    font-size: 24px;
+}
+.tb-void .tr-th-zz {
+    float: left;
+    width: 50%;
+}
+.tb-void .tr-th-zz span,.tb-void .tr-th-jz span{
+    font-weight: 700;
+    height: 24px;
+    left: 10px;
+    line-height: 24px;
+    position: relative;
+    padding-bottom: 10px;
+    color:#12a000;
+}
+.tb-void .tr-th-jz {
+    float: right;
+    width: 50%;
+}
+.tooltip {
+    color: #005ea7;
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 11;
+    margin: 0 auto;
+}
+.tooltip a {
+    vertical-align: middle;
+}
+.tooltip a {
+    background: url("../../images/home/anjian/icon2.png") no-repeat scroll 0 -38px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 5px;
+    margin-left: 5px;
+    overflow: hidden;
+    width: 9px;
+}

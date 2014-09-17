@@ -1,0 +1,8 @@
+2014-09-12 00:30:54:6 ERROR HttpModuler: SessionModuler.EndRequest:System.Web.HttpException (0x80004005): 服务器无法在发送 HTTP 标头之后修改 cookie。
+   在 System.Web.HttpCookieCollection.Remove(String name)
+   在 GCL.Project.VESH.V.Control.Session.Resource.CookieSessionResource.Clear(SessionData data)
+   在 GCL.Project.VESH.V.Control.Session.Resource.SecuritySessionResourceDecorater.Clear(SessionData data)
+   在 GCL.Project.VESH.V.Control.Session.SessionDataAdapter.ClearSessionData(SessionData data)
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 

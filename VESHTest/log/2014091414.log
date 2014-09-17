@@ -1,0 +1,42 @@
+2014-09-14 14:26:30:7 ERROR GCL.Db.Ni.NiCommandException: 调用命令:SELECT `Name,ID
+        FROM
+        admin_Permission
+        WHERE
+        Delflag = 0 order by `Index`;
+调用类型:Text
+是
+参数列表:
+=================================================================
+|名称	值	类型	长度	参数方向	|
+=================================================================
+=================================================================
+ ---> MySql.Data.MySqlClient.MySqlException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Index`' at line 1
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 GCL.Db.Ni.NiFillDataCommand.ExcuteCommand(IDataResource res, DbCommand command, NiDataResult result)
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataResource resource, LinkedList`1 lstCom, NiDataResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataResource resource, LinkedList`1 lstCom, NiDataResult result)
+   在 GCL.Db.Ni.NiTemplate.Excute()
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText, CommandType type)
+   在 GCL.Db.Ni.NiTemplate.Excute(IDataCommand comm, String commandText)
+   在 GCL.Db.Ni.NiTemplate.ExcuteQuery(String commandText)
+   在 GCL.Db.Ni.NiTemplateManager.ExcuteQuery(String templateName, String commandText)
+   在 VESHTest.Module.admin.Action.GetPermission(HttpRequest request, HttpResponse response, HttpContext context, SessionDataManager session) 位置 F:\baibing\work\VESHTest\VESHTest\Module\admin\Action.cs:行号 58
+2014-09-14 14:27:13:6 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 
+2014-09-14 14:27:27:0 ERROR HttpModuler: SessionModuler.EndRequest:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GCL.Project.VESH.V.Control.Session.SessionDataManager.Update()
+   在 GCL.Project.VESH.V.Control.Session.SessionModuler.EndRequest(HttpContext context)
+   在 GCL.Project.VESH.V.Control.Moduler.HttpModuler.context_EndRequest(Object sender, EventArgs e) 

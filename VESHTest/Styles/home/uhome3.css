@@ -1,0 +1,361 @@
+﻿@charset "utf-8";
+.i-banner {
+    padding-top:32px;
+}
+.contentbox {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 1px #e6e6e6;
+    height: auto !important;
+    margin: 20px 0;
+    min-height: 500px;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix {
+}
+.content-top {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 25px 10px 10px 30px;
+    position: relative;
+}
+.content-top .arrowSign {
+    background: url("../../images/home/icon_arrow_page.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px 0 0;
+    display: block;
+    height: 54px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 54px;
+}
+.content-top h2 {
+    color: #000;
+    float: left;
+    font: 20px "微软雅黑";
+}
+.content-top .location {
+    float: right;
+    margin-top: 15px;
+}
+.location em {
+    font-family: "微软雅黑";
+    margin: 0 5px;
+}
+.content-main {
+    padding: 10px 15px;
+}
+.tabs-menu {
+    padding-left: 25px;
+    position: relative;
+    z-index: 5;
+}
+.tabs-menu li {
+    float: left;
+}
+.tabs-menu li a.selected, .tabs-menu li a.selected:hover {
+    background-position: 0 -177px;
+    position: relative;
+    z-index: 10;
+}
+.tabs-menu li a {
+    background-position: 0 2px;
+    height: 42px;
+    padding: 0 0 0 50px;
+}
+.tabs-menu li a, .tabs-menu li a span {
+    background-image: url("../../images/home/bg_tabs_menu.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.tabs-menu li a.selected span, .tabs-menu li a.selected:hover span {
+    background-position: right -222px;
+    color: #888;
+}
+.tabs-menu li a span {
+    background-position: right -42px;
+    color: #757678;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    padding: 10px 50px 10px 0;
+}
+.tabs-menu li a, .tabs-menu li a span {
+    background-image: url("../../images/home/bg_tabs_menu.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix {
+}
+/*委托模块*/
+.tabs-content, .moreSearchContent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #dadada #d0d0d0 #d0d0d0;
+    border-image: none;
+    border-radius: 5px;
+    border-right: 1px solid #d0d0d0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 2px 1px #e6e6e6;
+    margin-top: -1px;
+}
+.minheight {
+    height: auto !important;
+    min-height: 660px;
+}
+.tabs-box {
+    padding: 20px 15px 15px;
+}
+.h-title-in {
+    color: #333;
+    font: 16px "黑体",微软雅黑;
+    padding-bottom: 10px;
+}
+.widget-graybox {
+    background-color: #f7f7f7;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 1px #e6e6e6;
+    padding: 10px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+/*个人信息*/
+.action-tips {
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    padding: 10px;
+}
+.widget-information {
+    border-bottom: 5px solid #f0f0f0;
+    padding: 10px;
+}
+.widget-information li.mobilephone {
+    background-image: url("../../images/home/zhanghu/icon_mobilephone_i.png");
+    width: 200px;
+}
+.widget-information li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-position: 15px 50%;
+    background-repeat: no-repeat;
+    border-color: #f0f0f0 #f0f0f0 #f0f0f0 #08c;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    float: left;
+    padding: 15px 10px 15px 80px;
+}
+.widget-information .box {
+    border-left: 1px solid #eaebec;
+    height: 70px;
+    padding-left: 20px;
+}
+.widget-information .label {
+    font-weight: bold;
+}
+.widget-information .info {
+    color: #4d4d4d;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.ui-icon, .ui-btn, .ui-btn-txt, .btn-normalmi {
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.btn-normalmi {
+    background: none repeat scroll 0 0 #e3e3e3;
+    border-radius: 5px;
+    color: #727272;
+    padding: 0 5px;
+}
+.widget-information li.email {
+    background-image: url("../../images/home/zhanghu/icon_email_i.png");
+    float: right;
+    width: 300px;
+}
+.btn-normalmi:hover {
+    background: none repeat scroll 0 0 #ccc;
+    color: #666;
+    text-decoration: none;
+}
+/*表单*/
+.action-tips {
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    padding: 10px;
+}
+.table-form th {
+    text-align: right;
+}
+.table-form th, .table-form td {
+    padding: 10px 5px;
+}
+caption, th {
+    text-align: left;
+}
+.table-form th, .table-form td {
+    padding: 10px 5px;
+}
+.input-text {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 0 5px;
+    vertical-align: middle;
+    width: 80%;
+}
+.input-text, .textarea {
+    background-color: #fff;
+    border: 1px solid #c8cacc;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px #ebeaea inset;
+    padding: 5px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+.pt20 {
+    padding-top: 20px;
+}
+.tc {
+    text-align: center;
+}
+
+.pt20 .ui-button {
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.pt20 .ui-button:hover {
+    background-image: none;
+}
+.ui-button {
+    background: none repeat scroll 0 0 #0080d9;
+    border-color: -moz-use-text-color;
+    border-radius: 0;
+    border-style: none;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    vertical-align: middle;
+    width: 219px;
+}
+.ui-button {
+    cursor: pointer;
+    display: inline-block;
+    font-family: verdana,Hiragino Sans GB;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+}
+.ui-button:hover {
+    background-color: #2376b1;
+    text-decoration: none;
+    color:#fff;
+}
+.link-new, .hot, .error {
+    color: #d80c24;
+}
+/*左侧栏*/
+.content-main .colsSide {
+    float: left;
+    width: 180px;
+}
+.content-main .tabs {
+    float: right;
+    width: 910px;
+}
+.sideMenu li {
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 14px;
+    padding: 10px;
+}
+.sideMenu li a.cur {
+    color: #08c;
+    font-weight: bold;
+}
+.sideMenu li a {
+    color: #4d4d4d;
+}
+.sideMenu li a.cur .icon-information {
+    background-position: right -450px;
+}
+.sideMenu li a.cur .icon-pwd {
+    background-position: right -544px;
+}
+.icon-information {
+    background-position: 0 -450px;
+    height: 12px;
+    width: 16px;
+}
+.icon-pwd {
+    background-position: 0 -544px;
+    height: 16px;
+    width: 16px;
+}
+.ui-icon {
+    background-image: url("../../images/home/zhanghu/icon_menu.png");
+}
+.ui-icon, .ui-btn, .ui-btn-txt, .btn-normalmi {
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+}
